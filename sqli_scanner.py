@@ -230,15 +230,11 @@ class SQLiScanner:
 
 def print_banner():
     banner = """
-    ____    ___   *      *   ____
-   / ___|  / * \\ | |    (*) / ___|   ___   ** *****  ***** **   *_*    ___  *_* 
-   \\___ \\ | | | || |    | | \\___ \\  / __| / *` || '* \\ | '_ \\  / * \\| '*_|
-    ___) || |_| || |___ | |  ___) || (__ | (_| || | | || | | ||  __/| |   
-   |____/  \\__\\_\\|_____||_| |____/  \\___| \\__,_||_| |_||_| |_| \\___||_|   
+   xxxxxx 
     """
     print(f"{Fore.CYAN}{banner}{Style.RESET_ALL}")
     print("─" * 60)
-    print(f"{Fore.YELLOW}Created by: Keizen{Style.RESET_ALL}")
+    print(f"{Fore.YELLOW} have fun {Style.RESET_ALL}")
     print("─" * 60)
 
 def main():
